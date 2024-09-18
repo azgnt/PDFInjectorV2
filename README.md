@@ -22,6 +22,8 @@ Welcome to **PDFInjector v2**! This tool is designed to inject custom payloads i
 
 1. **Clone the Repository**:
    ```bash
+python3 -m venv myenv
+source myenv/bin/activate
    git clone https://github.com/azgnt/PDFInjector-v2.git
    cd PDFInjector-v2
    ```
