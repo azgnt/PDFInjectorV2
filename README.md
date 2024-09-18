@@ -30,7 +30,7 @@ source myenv/bin/activate
 
 2. **Install Dependencies**:
    ```bash
-   pip install -r requirements.txt or   pip install -r requirements.txt or
+   pip install -r requirements.txt or
    pip install PyMuPDF==1.24.10
    pip install PySide6==6.7.2
    pip install pyfiglet==1.0.2
