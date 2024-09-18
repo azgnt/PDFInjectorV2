@@ -23,17 +23,25 @@ Welcome to **PDFInjector v2**! This tool is designed to inject custom payloads i
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/azgnt/PDFInjector-v2.git
-   cd PDFInjectorV2
+   cd PDFInjector-v2
    ```
 
 2. **Install Dependencies**:
    ```bash
-   pip install -r requirements.txt or
+   pip install -r requirements.txt or   pip install -r requirements.txt or
    pip install PyMuPDF==1.18.19
+   pip install PySide6==6.2.0
+   pip install pyfiglet
+   pip install termcolor
+   pip install requests  # This is commonly used for HTTP requests, useful for
+   PyMuPDF==1.18.19
    PySide6==6.2.0
-   pyfiglet
-   termcolor
-   requests  # This is commonly used for HTTP requests, useful for Telegram/Discord integration
+   pyfiglet==0.8.post1
+   termcolor==1.1.0
+   python-telegram-bot==13.7
+   discord.py==1.7.3
+   requests==2.26.0
+Telegram/Discord integration
    ```
 
 3. **Run the Application**:
@@ -47,6 +55,22 @@ Welcome to **PDFInjector v2**! This tool is designed to inject custom payloads i
 2. **Choose Payload Type**: Select from options like Backdoor, Password Stealer, etc.
 3. **Generate Payload**: Click "Generate Payload" to create your custom payload.
 4. **Inject and Notify**: Choose your communication method and inject the payload into the PDF.
+
+## 🤖 Telegram Bot Setup
+
+1. **Create a Bot**: Use the BotFather on Telegram to create a new bot and obtain the token.
+2. **Run the Bot**: Use the provided Python script to start your bot.
+   ```bash
+   python telegrambot.py
+   ```
+
+## 🎮 Discord Bot Setup
+
+1. **Create a Bot**: Go to the [Discord Developer Portal](https://discord.com/developers/applications) to create a bot and get the token.
+2. **Run the Bot**: Use the provided Python script to start your bot.
+   ```bash
+   python discordbot.py
+   ```
 
 ## 📚 Documentation
 
@@ -72,16 +96,6 @@ This tool is intended for educational and testing purposes only. The author is n
 
 ---
 
-**Contact**: For any queries or support, reach out via [GitHub Issues](https://github.com/yourusername/PDFInjector-v2/issues).
-
 ![GitHub Stars](https://img.shields.io/github/stars/yourusername/PDFInjector-v2?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/yourusername/PDFInjector-v2?style=social)
 ```
-
-### Customization Tips
-
-- **Replace Placeholders**: Ensure you replace `yourusername` and placeholder URLs with your actual GitHub username and URLs.
-- **Add Images**: If you have banners or screenshots, upload them to your repository and link them in the README.
-- **Documentation Links**: Add links to any additional documentation or setup guides if available.
-
-This README provides a comprehensive overview of your project, making it easier for users to understand, install, and use your tool.
