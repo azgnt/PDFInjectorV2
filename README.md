@@ -31,18 +31,13 @@ source myenv/bin/activate
 2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt or   pip install -r requirements.txt or
-   pip install PyMuPDF==1.18.19
-   pip install PySide6==6.2.0
-   pip install pyfiglet
-   pip install termcolor
-   pip install requests  # This is commonly used for HTTP requests, useful for
-   PyMuPDF==1.18.19
-   PySide6==6.2.0
-   pyfiglet==0.8.post1
-   termcolor==1.1.0
-   python-telegram-bot==13.7
-   discord.py==1.7.3
-   requests==2.26.0
+   pip install PyMuPDF==1.24.10
+   pip install PySide6==6.7.2
+   pip install pyfiglet==1.0.2
+   pip install termcolor==2.4.0
+   pip install requests==2.32.3  # This is commonly used for HTTP requests, useful for
+   pip install python-telegram-bot==21.5
+   pip install discord.py==2.4.0
 Telegram/Discord integration
    ```
 
